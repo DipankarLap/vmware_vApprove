@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [MobileAuto_Project]">
+  <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+  <parameter name="sauceUser" value="Local"/>
+  <parameter name="instanceName" value="dev"/>
+  <parameter name="moduleName" value="com.test"/>
+  <parameter name="testSetName" value="Concur"/>
+  <parameter name="env" value="local"/>
+  <parameter name="prjName" value="vApprove"/>
+  <test name="Concur(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+          <include name="expensetest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- Concur(failed) -->
+  <test name="Coupa(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+          <include name="PRtest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- Coupa(failed) -->
+  <test name="HelpNow(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+          <include name="SERVICENOW"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- HelpNow(failed) -->
+  <test name="Invoice(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="invoicetest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- Invoice(failed) -->
+  <test name="Swipe_To_Refresh(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="Swipetest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- Swipe_To_Refresh(failed) -->
+  <test name="Activity_Logs(failed)">
+    <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"/>
+    <parameter name="moduleName" value="com.test"/>
+    <classes>
+      <class name="scripts.com.vapprove.Swipe_To_Refresh">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Swipe_To_Refresh -->
+      <class name="scripts.com.vapprove.HelpNow">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.HelpNow -->
+      <class name="scripts.com.vapprove.ActivityLogs">
+        <methods>
+          <include name="activityLog"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.ActivityLogs -->
+      <class name="scripts.com.vapprove.Expenses">
+        <methods>
+          <include name="oneTearDown"/>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Expenses -->
+      <class name="scripts.com.vapprove.PR">
+        <methods>
+          <include name="setTestEnvironment"/>
+          <include name="oneTearDown"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.PR -->
+      <class name="scripts.com.vapprove.Invoice">
+        <methods>
+          <include name="setTestEnvironment"/>
+        </methods>
+      </class> <!-- scripts.com.vapprove.Invoice -->
+    </classes>
+  </test> <!-- Activity_Logs(failed) -->
+</suite> <!-- Failed suite [MobileAuto_Project] -->

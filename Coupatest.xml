@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="MobileAuto_Project" thread-count="1">
+      <parameter name="prjName" value="vCloudAir"></parameter>
+      <parameter name="instanceName" value="dev"></parameter>
+      <parameter name="sauceUser" value="Local"></parameter>
+      <parameter name="testSetName" value="AndroidMA"></parameter>
+      <parameter name="testSetName" value="AndroidMA1"></parameter>
+	  <parameter name="env" value="local"></parameter>
+	  
+	    <test name="VCAPortaldata">
+         	<classes>
+              	<class name="scripts.com.coupa.Coupa"/>
+         	  </classes>
+        </test>      
+      
+      <test name="AndroidMA">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+          <class name="scripts.com.coupa.coupaSearch"/>
+          </classes>
+        </test>
+       
+        
+</suite>

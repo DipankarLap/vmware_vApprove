@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_60"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/java-client-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/json-simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/log4j-1.2.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/poi-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/selenium-java-2.45.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/testng-5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jars/xmlbeans-2.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/fontbox-0.8.0-incubating.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/itextpdf-5.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jasypt-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jdom-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jdom-2.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/json-simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/jxl.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/log4j-1.2.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/ojdbc14.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/OrderStatusCheck.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/pdfbox-1.8.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/poi-3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/poi-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/selenium-java-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/selenium-server-standalone-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/sikuli-script.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/sqljdbc4-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/xmlbeans-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Workspace/Mobile_Framework/Resources/MobileFramework.jar"/>
+	<classpathentry kind="lib" path="D:/Workspace/Mobile_Framework/Resources/selenium-chrome-driver-2.0a4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

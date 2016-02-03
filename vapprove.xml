@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="MobileAuto_Project" thread-count="1">
+      <parameter name="prjName" value="vCloudAir"></parameter>
+      <parameter name="instanceName" value="dev"></parameter>
+      <parameter name="sauceUser" value="Local"></parameter>
+      <parameter name="testSetName" value="AndroidMA"></parameter>
+      <parameter name="testSetName" value="AndroidMA1"></parameter>
+	  <parameter name="env" value="local"></parameter>
+	  
+	   
+      
+      <test name="Concur">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>
+		
+		<classes>
+          <class name="scripts.com.vapprove.Expenses"/>
+          </classes>
+            </test>             
+        
+		<test name="Coupa">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>
+		
+          <classes>
+          <class name="scripts.com.vapprove.PR"/>
+          </classes>
+          </test>  
+          
+          <test name="HelpNow">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>
+          <classes>
+          <class name="scripts.com.vapprove.HelpNow"/>
+          </classes>
+          </test>  
+          
+          <test name="Swipe">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>
+          <classes>
+          <class name="scripts.com.vapprove.Swipe_To_Refresh"/>
+          </classes>
+          </test>  
+        
+        <test name="Slider">
+        <parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+        <parameter name="moduleName" value="com.test"></parameter>  
+          <classes>
+          <class name="scripts.com.vapprove.Slider"/>
+          </classes>
+        </test>        
+       
+        
+</suite>

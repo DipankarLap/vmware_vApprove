@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="MobileAuto_Project" thread-count="1">
+	<parameter name="prjName" value="vApprove"></parameter>
+	<parameter name="instanceName" value="dev"></parameter>
+	<parameter name="sauceUser" value="Local"></parameter>
+	<parameter name="testSetName" value="Concur"></parameter>
+	<parameter name="env" value="local"></parameter>
+
+
+
+	<test name="Concur">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.Expenses" />
+		</classes>
+	</test>
+
+	<test name="Coupa">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.PR" />
+		</classes>
+	</test>
+
+	<test name="HelpNow">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.HelpNow" />
+		</classes>
+	</test>
+	
+	 <test name="Invoice">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.Invoice" />
+		</classes>
+	</test> 
+
+	<test name="Swipe_To_Refresh">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.Swipe_To_Refresh" />
+		</classes>
+	</test>
+
+		<test name="Activity_Logs">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.vapprove.ActivityLogs" />
+		</classes>
+	</test>
+
+<!--	<test name="ConcurPortal">
+		<classes>
+			<class name="scripts.com.concur.concurportal" />
+		</classes>
+	</test>
+
+	 <test name="ConcurPortal_Comaprision_Mobile">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.concur.concurSearch" />
+		</classes>
+	</test>
+
+	<test name="CoupaProtal">
+		<classes>
+			<class name="scripts.com.coupa.coupaSearch" />
+		</classes>
+	</test>
+
+	<test name="CoupaPortal_comaprision_Mobile">
+		<parameter name="testEnvironment" value="TestClass=Windows 7||Chrome"></parameter>
+		<parameter name="moduleName" value="com.test"></parameter>
+		<classes>
+			<class name="scripts.com.coupa.coupaSearch" />
+		</classes>
+	</test>  -->
+
+
+</suite>
